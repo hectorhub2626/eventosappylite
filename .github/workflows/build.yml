@@ -25,7 +25,7 @@ jobs:
 
     - name: Build EXE with PyInstaller
       run: |
-        pyinstaller --noconfirm --onedir --windowed App.py
+        pyinstaller --noconfirm --onedir --windowed --collect-all customtkinter App.py
 
     - name: Upload Artifact (.exe)
       uses: actions/upload-artifact@v4
