@@ -1,0 +1,22 @@
+# --- Google Colab ---
+.config/
+sample_data/
+.ipynb_checkpoints/
+
+# --- Bases de Datos Locales ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Python & Caché ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# --- Archivos de Compilación Local (PyInstaller) ---
+build/
+dist/
+*.spec
